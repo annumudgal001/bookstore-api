@@ -1,0 +1,21 @@
+{
+  "name": "bookstoreapi",
+  "version": "1.0.0",
+
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "AkshitMudgal",
+  "license": "ISC",
+  "description": "A basic practice RESTful API for managing books in a bookstore",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
